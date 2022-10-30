@@ -100,6 +100,7 @@ h6 {
   border-radius: 2rem;
   overflow: hidden;
   max-width: 32.7rem;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.2);
 }
 
 .card__info {
@@ -162,9 +163,9 @@ h6 {
     max-width: 45rem;
   }
 
-  .card__info {
+  .card__info .card__description{
     width: 35.4rem;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
   }
 
   .card__headline {
@@ -185,5 +186,6 @@ h6 {
   body {
     background-image: url("/images/pattern-background-desktop.svg");
     background-position-y: -35%;
+    background-position-x: center;
   }
 }
